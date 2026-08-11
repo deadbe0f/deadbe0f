@@ -26,11 +26,12 @@
 ## Wisdom (Communities)
 
 - [r/TibetanLanguage](https://reddit.com/r/TibetanLanguage)
-  藏语学习者社区；可提问阅读句段、转写核对。学习者偏好未表态——暂不主动推送。
+  藏语学习者社区；可提问阅读句段。学习者偏好未表态——暂不主动推送。
 - [84000 Translator community / contact](https://84000.co/contact)
   翻译与学术向；适合深术语问题（非日常口语）。
 
+**课程约定**：材料内不用 Wylie；课外查词典可用转写检索，但不写入课文。
+
 ## Gaps
 
-- 专门针对「萨迦道果法（lam 'bras）阅读」的公开分级词表较少；需从五祖文集与 BDRC 萨迦分类中自建课程词表
-- 国标藏文拉丁转写与 Wylie 对照的简明阅读指南——若学习者用的是国标转写，需补充对照表
+- 专门针对萨迦道果法（<span class="tibetan">ལམ་འབྲས</span>）阅读的分级词表较少；需从五祖文集与 BDRC 萨迦分类中自建课程词表

@@ -74,11 +74,21 @@ a {
   margin: 1rem 0;
 }
 
-.tibetan {
-  font-family: var(--font-mono);
-  font-size: 1.1rem;
+/* Tibetan Unicode — primary script in all lessons */
+.tibetan,
+.tibetan-script {
+  font-family: "Noto Sans Tibetan", "Microsoft Himalaya", "Tibetan Machine Uni", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.75;
   color: var(--accent);
   letter-spacing: 0.02em;
+}
+
+/* Latin transliteration — not used in lessons; kept for rare external refs only */
+.tibetan-wylie {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--muted);
 }
 
 .example-block {
