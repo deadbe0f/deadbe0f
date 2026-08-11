@@ -1,5 +1,7 @@
 /* Shared lesson stylesheet — Tufte-inspired, print-friendly */
 
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tibetan:wght@400;600&family=Noto+Serif+Tibetan:wght@400;600&display=swap");
+
 :root {
   --text: #1a1a1a;
   --muted: #555;
@@ -77,18 +79,13 @@ a {
 /* Tibetan Unicode — primary script in all lessons */
 .tibetan,
 .tibetan-script {
-  font-family: "Noto Sans Tibetan", "Microsoft Himalaya", "Tibetan Machine Uni", sans-serif;
-  font-size: 1.4rem;
-  line-height: 1.75;
-  color: var(--accent);
-  letter-spacing: 0.02em;
-}
-
-/* Latin transliteration — not used in lessons; kept for rare external refs only */
-.tibetan-wylie {
-  font-family: var(--font-mono);
-  font-size: 0.85rem;
-  color: var(--muted);
+  font-family: "Noto Sans Tibetan", "Noto Serif Tibetan", "Microsoft Himalaya", "Tibetan Machine Uni", sans-serif;
+  font-size: 1.5rem;
+  line-height: 1.85;
+  color: #1a3a5c;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  /* Visually distinct from Latin text — never monospace transliteration */
 }
 
 .example-block {
